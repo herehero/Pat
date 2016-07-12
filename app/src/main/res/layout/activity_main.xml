@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="4" 
+        >
+        <ImageView
+            android:id="@+id/LogoView"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/la_start_logo" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6" 
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_height="40dp"
+            android:layout_width="340dp"
+             android:padding="5dp"
+            android:background="@drawable/la_login_btn_pressed"
+            android:text="注 册"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal" 
+            android:layout_marginTop="100dp"
+            />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_width="340dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/la_login_btn_normal"
+            android:text="登 录"
+            android:gravity="center"
+            android:textColor="@color/login_text_color" />
+    </LinearLayout>
+
+</LinearLayout>
