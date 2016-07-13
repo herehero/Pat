@@ -4,6 +4,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="common_item_hight">50dp</dimen>
     <dimen name="common_10dp">10dp</dimen>
+    <dimen name="common_20dp">20dp</dimen>
 
 
     <dimen name="textsize_mian_title_right">16sp</dimen>
